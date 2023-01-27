@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mquery.css">
 </head>
 <body>
     <header>
@@ -26,10 +27,13 @@
     <div id="campo">
         
             <form action="registro.php" method="post">
+                <h1>Cadastre-se!</h1>
                 <p>Faça já o seu cadastro e venha fazer parte dessa experiência!</p>
-             <label for="iemail">Email</label>
-             <input type="email" name="mail" id="iemail" placeholder="Insira o seu Email">
-             <a href="#">CADASTRE-SE AGORA!</a>
+                <label for="iname">Nome</label>
+                 <input type="text" name="name" id="iname" required maxlength="40" placeholder="Nome completo">
+                <label for="iemail">Email</label>
+                <input type="email" name="mail" id="iemail" placeholder="Insira o seu Email" required>
+                <a href="#">CADASTRE-SE AGORA!</a>
     </div>
     </main>
 

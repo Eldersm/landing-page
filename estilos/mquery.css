@@ -1,5 +1,43 @@
 @charset "UTF-8";
 
 @media screen and (min-width:780px) and (max-width:1024px) {
-    
+    body {
+        height: 80%;
+        width: 100%;
+    }
+   
+    main {
+        display: flex;
+        flex-direction: row;
+        height: 85vh;
+        flex-wrap: wrap;
+
+    }
+     main >div#imagem {
+        align-self: baseline;
+        background-size: contain;
+        width:400px;
+        height:300px;
+    }
+    section {
+        order: 3;
+        align-self:baseline;
+        
+    }
+    main > section {
+        align-self: baseline;
+    }
+    main > section > p {
+        line-height: 1.8em;
+        margin-left:5px
+    }
+    div#campo {
+        align-self: flex-start;
+        height: 300px;
+        width: 47.5vw;
+        order: 1;
+    }
+    div#campo >form > input[type=submit] {
+        margin-top: 40px;
+    }
 }

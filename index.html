@@ -26,13 +26,13 @@
        </section>
     <div id="campo">
         
-            <form action="registro.php" method="post">
+            <form action="registro.php" method="post" autocomplete="on">
                 <h1>Cadastre-se!</h1>
                 <p>Faça já o seu cadastro e venha fazer parte dessa experiência!</p>
                 <label for="iname">Nome</label>
-                 <input type="text" name="name" id="iname" required maxlength="40" placeholder="Nome completo">
+                 <input type="text" name="name" id="iname" required maxlength="40" placeholder="Nome completo" autocomplete="name">
                 <label for="iemail">Email</label>
-                <input type="email" name="mail" id="iemail" placeholder="Insira o seu Email" required>
+                <input type="email" name="mail" id="iemail" placeholder="Insira o seu Email" required autocomplete="email">
                 <input type="submit" value="Cadastre-se Agora!">
     </div>
     </main>

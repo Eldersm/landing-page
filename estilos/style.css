@@ -43,7 +43,8 @@ main {
     align-items:center;
     text-align: center;
     width: 100vw;
-    height: 87.7vh;
+    padding-bottom: 100.5px;
+    height: 100%;
 }
 
 main > div#imagem{

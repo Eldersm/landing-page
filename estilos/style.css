@@ -93,7 +93,7 @@ div#campo > form > input[type=submit]{
 form > input[type=submit] {
     display: block;
     background-color:#E6A54C ;
-    padding: 8px 0px;
+    padding: 6px 0px;
     text-decoration: none;
     color: white;
     border-radius:10px;

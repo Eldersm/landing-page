@@ -64,6 +64,7 @@ main > section > p {
     text-align: center;
 }
 div#campo {
+    overflow: hidden;
     border-radius: 20px;
     background-color: #22BDE6;
     height: 225px;

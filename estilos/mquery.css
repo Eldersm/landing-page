@@ -34,10 +34,58 @@
     div#campo {
         align-self: flex-start;
         height: 300px;
-        width: 47.5vw;
+        width: 45.6vw;
         order: 1;
+        transition: .3s , .3s;
+        transition-timing-function: ease;
     }
     div#campo >form > input[type=submit] {
         margin-top: 40px;
     }
+}
+
+
+@media screen and (min-width:1025px) {
+    body {
+        height: 80%;
+        width: 100%;
+    }
+   
+    main {
+        display: flex;
+        flex-direction: row;
+        max-height: 85vh;
+        flex-wrap: wrap;
+
+    }
+     main >div#imagem {
+        align-self:flex-start;
+        background-size: cover;
+        background-position: center center;
+        width:50vw;
+        height:300px;
+    }
+    section {
+        order: 3;
+        align-self:baseline;
+        
+    }
+    main > section {
+        align-self: baseline;
+    }
+    main > section > p {
+        line-height: 1.8em;
+        margin-left:5px
+    }
+    div#campo {
+        align-self: flex-start;
+        height: 300px;
+        width: 45.6vw;
+        order: 1;
+        transition: .3s , .3s;
+        transition-timing-function: ease;
+    }
+    div#campo >form > input[type=submit] {
+        margin-top: 40px;
+    }  
 }
